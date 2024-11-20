@@ -21,7 +21,6 @@ If you are interested in interviews with the top hackers and bug bounty hunters,
 
 ## Cyber Security Content Creators
 - [Bug Bounty Course 2024 Updated](https://www.youtube.com/watch?v=TTw-EY7F1rM)) by Ryan John
-- [Curated List of YT Channels](https://threader.app/thread/1248351836672872456) by TCM
 - [Nahamsec](https://www.youtube.com/nahamsec) - Educational Videos and VODs of his Stream, Vlogs
 - [STÖK](https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg) - Videos About Hacking, Live Events, Bug Bounty Tips & Vlogs
 - [Bug Bounty Reports Explained](https://www.youtube.com/c/bugbountyreportsexplained/)
