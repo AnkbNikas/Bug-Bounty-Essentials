@@ -116,4 +116,64 @@ https://codebeautify.org/jsonviewer
 
 ### Burp suit:
 
+Open burp suit/proxy/intercept
+open website look for www.yahoo.com
+and we ccan see in the request the IP reached for the especific domain.
+
+- shodan host IP (It will give us this information): City, Country, Organization, Updated, Number of open ports, Ports information, Ports, SSL Versions.
+
+- shodan scan submit IP (To Scan a network)
+
+# Hurricane Electric
+
+- El sitio web BGP.he.net es una herramienta creada por Hurricane Electric que se utiliza principalmente para 
+  obtener información relacionada con el sistema de enrutamiento global de Internet basado en el protocolo BGP 
+  (Border Gateway Protocol). Este sitio es ampliamente utilizado por administradores de redes, investigadores y 
+  profesionales de seguridad informática para realizar análisis de redes. Sus principales funciones son:
+
+1. Información sobre ASN (Autonomous System Numbers):
+   Muestra detalles de sistemas autónomos (AS), como sus prefijos anunciados, peers (conexiones BGP con otros AS), 
+   rutas y el historial de cambios en la red.
+2. Exploración de Prefijos IP:
+   Permite buscar rangos de direcciones IP y ver qué AS los administra, junto con la información asociada.
+3. Estado de Peering:
+   Ofrece estadísticas sobre conexiones BGP entre diferentes AS, incluyendo detalles de quién está anunciando rutas 
+   y hacia dónde.
+4. Monitoreo de Rutas BGP:
+   Ayuda a rastrear cómo se propagan las rutas en Internet y a detectar problemas como rutas inalcanzables o mal 
+   configuradas.
+5. Información Histórica:
+   Proporciona un historial de cambios en los prefijos IP y en las configuraciones de enrutamiento, útil para 
+   auditorías o investigaciones de problemas de conectividad.
+6. Estadísticas Globales:
+   Contiene gráficos y tablas con datos sobre la cantidad de prefijos anunciados globalmente, el crecimiento de los 
+   ASN y otras métricas relevantes del ecosistema de Internet.
+7. Verificación de Peering en el "Hurricane Electric IPv6 Peering Portal":
+   Si tienes una cuenta, puedes usar el sitio para administrar o verificar conexiones de peering con Hurricane 
+   Electric.
+
+- Ejemplo de Uso:
+  Si introduces un número de AS (como el AS15169 de Google), obtendrás información completa sobre los prefijos IP 
+  que gestiona, sus peers y las rutas anunciadas.
+
+- Aplicaciones:
+  Diagnóstico de problemas de red: Como interrupciones o malas configuraciones de rutas.
+  Planificación de peering: Identificar socios potenciales para conexiones BGP.
+  Seguridad y análisis forense: Investigar anomalías en el enrutamiento, como ataques BGP hijacking.
+  Estudios de infraestructura: Investigar la topología de Internet a nivel global.
+
+https://bgp.he.net/
+
+# Shodan Dashboard:
+
+- org Yahoo (To find the organization Yahoo)
+- IP Address (will pull down all this information): Geneal information, Web technologies, Open ports
+- product:Apache (To see which company use that product and check versions and if they have vulnerabilities)
+
+- You have lots of examples in Dashboard/Search query Examples.
+
+
+
+
+
 
