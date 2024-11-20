@@ -35,7 +35,6 @@ If you are interested in interviews with the top hackers and bug bounty hunters,
 - [Rana Khalil](https://www.youtube.com/@RanaKhalil101)
 - [David Bombal](https://www.youtube.com/@davidbombal)
 - [NetworkChuck](https://www.youtube.com/NetworkChuck)
-- [PhD Security](https://www.youtube.com/@phd_security)
 - [HackerSploit](https://www.youtube.com/HackerSploit)
 
 ## Streamers
