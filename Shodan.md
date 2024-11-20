@@ -52,4 +52,8 @@ Compatibility: Facilitates working with APIs that use JSON, making the data easi
 
 These functions are especially useful for developers and people who work with APIs, as they help to analyze, debug, and better understand JSON data.
 
-(Copy the info in the file.jsonwith gedit and paste it in the Beautify JSON web tool, then press Beautify to properly read the content.) host yahoo.com (gives us a range of IP addresses that are running on yahoo.com) ping yahoo.com (gives us the IP addresses that we are able to ping)
+(Copy the info in the file.jsonwith gedit and paste it in the Beautify JSON web tool, then press Beautify to properly read the content.) 
+
+host yahoo.com (gives us a range of IP addresses that are running on yahoo.com) 
+
+ping yahoo.com (gives us the IP addresses that we are able to ping)
