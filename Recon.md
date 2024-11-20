@@ -209,7 +209,7 @@ param=42 (parameter) You can start to mess around changing things  url=42 / id=4
 
 # How DNS works:
 
-
+https://howdns.works/
 
 
 
