@@ -16,6 +16,8 @@
 
 - Legal Issues | Nmap Network Scanning
 
+https://nmap.org/book/legal-issues.html
+
 nmap -A -F -T1 10.10.10.223 -v
 
 -A: Enables all detection options, including service versions, scripts, and more. -F: Performs a fast scan of the most common ports (100 by default). -T1: Sets the scan speed to "slow," which can be useful to avoid detection. -v: Increases the verbosity of the command, providing more information about the scan.
