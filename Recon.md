@@ -16,7 +16,7 @@
 
 - Legal Issues | Nmap Network Scanning
 
-https://nmap.org/book/legal-issues.html
+  https://nmap.org/book/legal-issues.html
 
 nmap -A -F -T1 10.10.10.223 -v
 
