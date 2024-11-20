@@ -14,9 +14,9 @@
 
 5. Custom Scripts: Using the Nmap Scripting Engine (NSE), you can run custom scripts to detect specific vulnerabilities and automate security tasks. These capabilities make Nmap a powerful tool for security researchers looking to identify and exploit vulnerabilities in bug bounty programs.
 
-- Legal Issues | Nmap Network Scanning
+Legal Issues | Nmap Network Scanning
 
-  https://nmap.org/book/legal-issues.html
+https://nmap.org/book/legal-issues.html
 
 nmap -A -F -T1 10.10.10.223 -v
 
@@ -38,7 +38,7 @@ nmap -A -F -T1 10.10.10.223 -v
 
 ffuf -w /usr/share/wordlists/dirb/common.txt -u http://tenet.htb/FUZZ -p 1
 
-- SecLists
+SecLists
 
 https://github.com/danielmiessler/SecLists
 
