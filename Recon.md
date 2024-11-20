@@ -18,6 +18,8 @@ nmap -A -F -T1 10.10.10.223 -v
 
 -A: Enables all detection options, including service versions, scripts, and more. -F: Performs a fast scan of the most common ports (100 by default). -T1: Sets the scan speed to "slow," which can be useful to avoid detection. -v: Increases the verbosity of the command, providing more information about the scan.
 
+Ffuf:
+
 FFUF (Fuzz Faster U Fool) is a fuzzing tool used in bug bounty programs to find vulnerabilities in web applications. Here’s how it can be useful:
 
 Directory and File Fuzzing: FFUF can search for hidden directories and files in a web application, helping to identify potential entry points for attacks.
@@ -35,6 +37,8 @@ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://tenet.htb/FUZZ -p 1
 SecLists
 
 https://github.com/danielmiessler/SecLists
+
+Shodan:
 
 Shodan is a powerful tool for bug bounty programs because it allows for efficient network reconnaissance. Here's how it can be useful:
 
@@ -95,4 +99,5 @@ host yahoo.com (gives us a range of IP addresses that are running on yahoo.com)
 ping yahoo.com (gives us the IP addresses that we are able to ping)
 
 Burp suit:
+
 
