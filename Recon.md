@@ -178,6 +178,37 @@ https://bgp.he.net/
 
 - You have lots of examples in Dashboard/Search query Examples.
 
+# To take notes use CherryTree
+
+![Captura de pantalla 2024-11-20 192429](https://github.com/user-attachments/assets/cf0b701d-ae59-4f06-8697-e7b87e2c75c0)
+
+# Diferent parts of a URL:
+
+![Captura de pantalla 2024-11-20 192543](https://github.com/user-attachments/assets/589c5007-0ce7-4691-a103-86a93f90e1f2)
+
+https:// (Protocol)
+
+sub = WWW (subdomain) You can Ffuf with wffuf
+
+domain (Domain)
+
+com (Top domain level)
+
+blog/artical/search (Pathor location of content)
+
+blog (Directory) You can Ffuf Directorys Here
+
+artical (Directory)
+
+search (Page)
+
+? (signifies a query)
+
+param=42 (parameter) You can start to mess around changing things  url=42 / id=42
+
+
+# How DNS works:
+
 
 
 
