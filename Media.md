@@ -16,7 +16,6 @@ If you are interested in interviews with the top hackers and bug bounty hunters,
 - [TryHackMe](https://discord.gg/KsAEejZ)
 - [HackTheBox](https://discord.gg/FrRJ3Z8)
 - [TheCyberMentor](https://discord.gg/)
-- [InsiderPhD](https://discord.gg/rdQcSk7a)
 
 
 ## Cyber Security Content Creators
