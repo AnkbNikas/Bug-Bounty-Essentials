@@ -7,9 +7,6 @@ If you are interested in interviews with the top hackers and bug bounty hunters,
 - [Discord Servers](#Discord-Servers)
 - [YouTube Channels](#Youtube-Channels)
 - [Streamers](#Streamers)
-- [Podcasts](#Podcasts)
-- [Twitter](#Twitter)
-- [Misc](#Misc)
 
 ---
 
