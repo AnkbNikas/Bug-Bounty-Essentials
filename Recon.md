@@ -126,41 +126,47 @@ and we ccan see in the request the IP reached for the especific domain.
 
 # Hurricane Electric
 
-- El sitio web BGP.he.net es una herramienta creada por Hurricane Electric que se utiliza principalmente para 
-  obtener información relacionada con el sistema de enrutamiento global de Internet basado en el protocolo BGP 
-  (Border Gateway Protocol). Este sitio es ampliamente utilizado por administradores de redes, investigadores y 
-  profesionales de seguridad informática para realizar análisis de redes. Sus principales funciones son:
+- The BGP.he.net website is a tool created by Hurricane Electric primarily used to obtain information related to 
+  the global Internet routing system based on the BGP (Border Gateway Protocol). This site is widely used by 
+  network administrators, researchers, and cybersecurity professionals to perform network analysis. Its main 
+  features are:
 
-1. Información sobre ASN (Autonomous System Numbers):
-   Muestra detalles de sistemas autónomos (AS), como sus prefijos anunciados, peers (conexiones BGP con otros AS), 
-   rutas y el historial de cambios en la red.
-2. Exploración de Prefijos IP:
-   Permite buscar rangos de direcciones IP y ver qué AS los administra, junto con la información asociada.
-3. Estado de Peering:
-   Ofrece estadísticas sobre conexiones BGP entre diferentes AS, incluyendo detalles de quién está anunciando rutas 
-   y hacia dónde.
-4. Monitoreo de Rutas BGP:
-   Ayuda a rastrear cómo se propagan las rutas en Internet y a detectar problemas como rutas inalcanzables o mal 
-   configuradas.
-5. Información Histórica:
-   Proporciona un historial de cambios en los prefijos IP y en las configuraciones de enrutamiento, útil para 
-   auditorías o investigaciones de problemas de conectividad.
-6. Estadísticas Globales:
-   Contiene gráficos y tablas con datos sobre la cantidad de prefijos anunciados globalmente, el crecimiento de los 
-   ASN y otras métricas relevantes del ecosistema de Internet.
-7. Verificación de Peering en el "Hurricane Electric IPv6 Peering Portal":
-   Si tienes una cuenta, puedes usar el sitio para administrar o verificar conexiones de peering con Hurricane 
-   Electric.
+1. Information about ASN (Autonomous System Numbers):
+   Displays details about autonomous systems (AS), such as their announced prefixes, peers (BGP connections with 
+   other ASes), routes, and the history of network changes.
 
-- Ejemplo de Uso:
-  Si introduces un número de AS (como el AS15169 de Google), obtendrás información completa sobre los prefijos IP 
-  que gestiona, sus peers y las rutas anunciadas.
+2. IP Prefix Exploration:
+   Allows users to search for IP address ranges and see which AS manages them, along with the associated information.
 
-- Aplicaciones:
-  Diagnóstico de problemas de red: Como interrupciones o malas configuraciones de rutas.
-  Planificación de peering: Identificar socios potenciales para conexiones BGP.
-  Seguridad y análisis forense: Investigar anomalías en el enrutamiento, como ataques BGP hijacking.
-  Estudios de infraestructura: Investigar la topología de Internet a nivel global.
+3. Peering Status:
+   Provides statistics on BGP connections between different ASes, including details of who is announcing routes and 
+   to where.
+
+4. BGP Route Monitoring:
+   Helps track how routes propagate across the Internet and detect issues such as unreachable or misconfigured 
+   routes.
+
+5. Historical Information:
+   Offers a history of changes in IP prefixes and routing configurations, useful for audits or investigating 
+   connectivity problems.
+
+6. Global Statistics:
+   Includes charts and tables with data on the number of globally announced prefixes, ASN growth, and other key 
+   metrics of the Internet ecosystem.
+
+7. Peering Verification on the "Hurricane Electric IPv6 Peering Portal":
+   If you have an account, you can use the site to manage or verify peering connections with Hurricane Electric.
+
+8. Example of Use:
+   If you enter an AS number (such as AS15169 for Google), you will get complete information about the IP prefixes 
+   it manages, its peers, and the routes it announces.
+
+9. Applications:
+
+  - Network troubleshooting: For issues such as outages or route misconfigurations.
+  - Peering planning: Identify potential partners for BGP connections.
+  - Security and forensic analysis: Investigate routing anomalies, such as BGP hijacking attacks.
+  - Infrastructure studies: Explore the global Internet topology at a high level.
 
 https://bgp.he.net/
 
