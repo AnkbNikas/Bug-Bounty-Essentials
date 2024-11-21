@@ -1,3 +1,3 @@
 # Bug-Bounty-Resources
 
-Collection of web hacking tools, tips, resources & vulnerabilities.
+Collection of web hacking reports, tools, tips, resources & vulnerabilities.
