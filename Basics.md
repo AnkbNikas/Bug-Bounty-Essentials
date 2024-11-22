@@ -117,9 +117,6 @@ After creating your own web server, I highly recommend installing a CMS (like Wo
 ### Bug Bounty Basics
 - [Hacker101's Getting Started](https://www.hacker101.com/start-here)
 - [Bug bounty reports that stand out, how to write one?](https://thehackerish.com/bug-bounty-reports-that-stand-out-how-to-write-one/)
-- [Bug Bounty Report Templates by @ZephrFish](https://github.com/ZephrFish/BugBountyTemplates/blob/master/Blank.md)
-- [List of Bug Bounty Platforms](https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/bugbountyplatforms.md)
-- [Bug Bounty Cheatsheet](https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html)
 
 #### Bug Bounty Basics Videos
 - [HOW TO GET STARTED IN BUG BOUNTY](https://www.youtube.com/watch?v=CU9Iafc-Igs)
