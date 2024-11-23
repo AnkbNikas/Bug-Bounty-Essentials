@@ -276,5 +276,48 @@ sublist3r -d yahoo.com (find subdomains)
 
 amass enum -passive -d yahoo.com (find subdomains)
 
+# Wappalyzer: (Find web technology)
+
+CMS, Programming language, Oparating systems, Blogs, Font scripts, Web servers, WordPress themes, etc...
+
+# React Development tools: (Find is is using React)
+
+# W3Techs: (Find web technology)
+
+[https://w3techs.com/](https://w3techs.com/sites)
+
+# Inspect web:
+
+Go to the web, right cick and press inspect
+
+Go to Debugger
+
+wp-includes/js
+
+JS wp-embed.min.js
+
+press {} prety print at the bottom and look through to find something.
+
+# Nmap:
+
+nmap -A -p35, 445, 135, 138, 80, 443  -v (use it only to specific ports)
+
+# Fuff:
+
+ffuf -u https://FUZZ.yahoo.com/ -w /usr/share/wordlists/dirb/common.txt -p 1 (to check domains)
+
+ffuf -u https://FUZZ.yahoo.com/ -w /usr/share/wordlists/dirb/common.txt -p 1 -fc 301
+
+ffuf -u https://yahoo.com/FUZZ -w /usr/share/wordlists/dirb/common.txt -p 1 -fc 301 (to check subdomains)
+
+ffuf -u https://api.yahoo.com/FUZZ -w /usr/share/wordlists/dirb/common.txt (to check valid endpoint)
+
+#Dirb: (Another fuzzer)
+
+dirb https://yahoo.com
+
+# wpscan: (to check wordpress vulnerabilities)
+
+wpscan --url http://tenet.htb -e ap --plugins-detection aggressive
 
 
