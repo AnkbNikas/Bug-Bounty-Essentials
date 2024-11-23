@@ -243,3 +243,23 @@ whois google.com
 (to find domains, subdomains & email address)
 
 theHarverter -d domain.com -b google
+
+# Crt.sh
+
+(To check subdomains) make sure that urls are in scope before start
+
+https://Crt.sh
+
+Important subdomains dev, admin, api
+
+# Wayback Machine
+
+https://web.archive.org/
+
+Companies host domains or subdomains that are no longer in use and no updated, so we can find vulnerabilities or cve
+
+amass enum -passive -d yahoo.com (find subdomains)
+
+gedit yahoo.txt (paste them in this file)
+
+cat yahoo.txt | ./waybackurls > yahoo.urls (will tell us the valids urls from the file)
