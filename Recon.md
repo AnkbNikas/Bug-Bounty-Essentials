@@ -211,6 +211,35 @@ param=42 (parameter) You can start to mess around changing things  url=42 / id=4
 
 https://howdns.works/
 
+# DIG:
 
+example to use dig: 
 
+dig axfr @ friendzone.red
 
+to save results in a file:
+
+dig axfr @ friendzone.red > zone
+
+to add more:
+
+dig axfr @ friendzoneportal.red >> zone
+
+It will show where friendzone is:
+
+cat zone | grep friendzone
+
+cat zone | grep friendzone | grep IN | awk '{print $1}' | sort -u 
+
+*REMEMBER: Port 53 is used for zone transfer
+
+To get more info about companies:
+
+nslookup www.google.com
+whois google.com
+
+# The Harvester:
+
+(to find domains, subdomains & email address)
+
+theHarverter -d domain.com -b google
