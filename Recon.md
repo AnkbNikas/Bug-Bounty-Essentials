@@ -263,3 +263,18 @@ amass enum -passive -d yahoo.com (find subdomains)
 gedit yahoo.txt (paste them in this file)
 
 cat yahoo.txt | ./waybackurls > yahoo.urls (will tell us the valids urls from the file)
+
+wc -l yahoo.urls (will show us how many are valid)
+
+sudo apt install httprobe
+
+cat yahoo.txt | httprobe -t 1000 > valid.urls (will save all the valid urls into a file)
+
+sudo apt install sublist3r
+
+sublist3r -d yahoo.com (find subdomains)
+
+amass enum -passive -d yahoo.com (find subdomains)
+
+
+
